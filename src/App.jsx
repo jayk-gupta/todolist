@@ -7,9 +7,13 @@ import { TaskProvider, TaskContext } from "./TaskContext";
 import { useContext } from "react";
 
 function App() {
-const { lightMode, handleToggleMode, handleAddTasks, tasks, handleClearTasks } =
-  useContext(TaskContext);
-  //  JSX
+  const {
+    lightMode,
+    handleToggleMode,
+    handleAddTasks,
+    tasks,
+    handleClearTasks,
+  } = useContext(TaskContext);
   return (
     <TaskProvider>
       <div

@@ -65,7 +65,8 @@ function TaskProvider({ children }) {
         lightMode: lightMode,
         handleClearTasks: handleClearTasks,
         handleAddTasks: handleAddTasks,
-       handleToggleMode:handleToggleMode
+        handleToggleMode: handleToggleMode,
+        tasks: tasks,
       }}
     >
       {children}

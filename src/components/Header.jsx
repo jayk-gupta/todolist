@@ -20,4 +20,4 @@ function Header({ tasks }) {
     </div>
   );
 }
-export default Header
+export default Header;
